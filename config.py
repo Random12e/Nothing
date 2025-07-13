@@ -11,7 +11,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","zero")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://clusterManager:<db_password>@cluster0.i2njgof.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://clusterManager:<your_real_password>@cluster0.i2njgof.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
